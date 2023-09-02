@@ -32,7 +32,7 @@ def play():
                letter = input("Your letter: ")
                if(is_present(letter,picked_movie)):
                    #unlock
-            else:
+               else:
                 print(letter," not found")
         else:
             #player 2
