@@ -36,8 +36,27 @@ print(ages)
 ages.insert(5,28)     #ascending
 print(ages)
 
+students = ["Arun","Rajesh","Harish","Akanksha","Lakshmi","Varsha"]
+students.sort()
+students.insert(0,"JOC")
+print(students)
 
+# slicing
+'''
+syntax
+list_name[start:end+1]
 
+default values: 
+    start : 0 (index of first element)
+    end + 1 : last index value + 1 (len(list))  
+'''
+
+print(Avengers)
+
+print(Avengers[0:6]) 
+print(Avengers[:])
+print(Avengers[:6])
+print(Avengers[1:])       
 
 
 
