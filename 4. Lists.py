@@ -33,7 +33,7 @@ print(ages)
 
 
 # Reverse
-ages.insert(5,28)     #ascending
+ages.reverse()     #descending
 print(ages)
 
 students = ["Arun","Rajesh","Harish","Akanksha","Lakshmi","Varsha"]
